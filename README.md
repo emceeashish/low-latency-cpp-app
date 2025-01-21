@@ -32,9 +32,3 @@ This project provides a low-latency C++ socket-based communication system featur
 ## Project Structure
 - **server.cpp**: Contains the multithreaded server code.
 - **client.cpp**: Contains the client application code.
-
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For any issues or suggestions, please open an issue in the repository or contact the project maintainer.

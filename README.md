@@ -1,4 +1,3 @@
-# low-latency-cpp-app
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,14 +27,14 @@
     <pre>
 1. Open the server code in your C++ IDE.
 2. Compile the server code to generate the executable.
-3. Run the server executable. It will start listening on port <strong>9909</strong>.
+3. Run the server executable. It will start listening on port 9909.
     </pre>
 
     <h3>Step 2: Compile the Client</h3>
     <pre>
 1. Open the client code in your C++ IDE.
 2. Compile the client code to generate the executable.
-3. Run the client executable and connect to the server using IP <strong>127.0.0.1</strong> and port <strong>9909</strong>.
+3. Run the client executable and connect to the server using IP 127.0.0.1 and port 9909.
     </pre>
 
     <h3>Step 3: Test Communication</h3>

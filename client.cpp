@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<bits/stdc++.h> // Includes all standard C++ libraries
 #include <iostream>
 #include <winsock2.h>
 #include <ws2tcpip.h>

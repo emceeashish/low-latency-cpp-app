@@ -25,7 +25,7 @@ void cleanup() {
     WSACleanup();
     cout << "Cleaned up resources." << endl;
 }
-
+//this will handle multiple clients trying to send message
 void handle_messages() {
     while (isRunning) {
         FD_ZERO(&readfds);

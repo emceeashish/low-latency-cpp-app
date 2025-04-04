@@ -20,6 +20,7 @@ char buff[SIZE] = { 0 };
 int nRet = 0;
 bool isRunning = true;
 
+// Clean up Winsock and socket
 void cleanup() {
     closesocket(nClientSocket);
     WSACleanup();

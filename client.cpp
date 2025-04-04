@@ -93,6 +93,7 @@ int main() {
     }
 
     // Set socket options for low latency
+    // Disable Nagle's algorithm for low latency (TCP_NODELAY)
     int flag = 1;
     if (setsockopt(nClientSocket, IPPROTO_TCP, TCP_NODELAY, (char*)&flag, sizeof(flag)) < 0) {
         cerr << "setsockopt(TCP_NODELAY) failed." << endl;

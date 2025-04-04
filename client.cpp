@@ -78,6 +78,7 @@ void send_message() {
 }
 
 int main() {
+     // Initialize Winsock
     WSADATA ws;
     if (WSAStartup(MAKEWORD(2, 2), &ws) != 0) {
         cerr << "WSAStartup failed." << endl;

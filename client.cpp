@@ -62,7 +62,7 @@ void handle_messages() {
         }
     }
 }
-
+// Thread function to send messages to the server
 void send_message() {
     while (isRunning) {
         memset(buff, 0, SIZE);
